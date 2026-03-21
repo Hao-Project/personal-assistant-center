@@ -1,0 +1,31 @@
+{
+  "tasks": [
+    {
+      "id": "fetch-craft-dictation-note",
+      "name": "Fetch Craft Dictation Note",
+      "description": "Fetch dictated notes from Craft and generate corrections",
+      "icon": "📝",
+      "type": "shell",
+      "command": "python3.11 run.py",
+      "cwd": "/Users/haohong/Desktop/Project/note-manager"
+    },
+    {
+      "id": "review-dictation",
+      "name": "Review Dictation",
+      "description": "Open dictation review using latest notes and corrections",
+      "icon": "🔍",
+      "type": "shell",
+      "command": "python generate.py -c /Users/haohong/Desktop/Project/note-manager/corrections/latest_corrections.json --auto-open",
+      "cwd": "/Users/haohong/Desktop/Project/dictation-reviewer"
+    },
+    {
+      "id": "notes-to-flashcards",
+      "name": "Notes to Flashcards",
+      "description": "Launch the notes to flashcards app",
+      "icon": "🃏",
+      "type": "shell",
+      "command": "streamlit run app.py",
+      "cwd": "/Users/haohong/Desktop/Project/notes-to-flashcards"
+    }
+  ]
+}

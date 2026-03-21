@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Assistant Center</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Personal Assistant Center</h1>
+    <p class="subtitle">Your personal automation dashboard</p>
+  </header>
+
+  <main id="task-grid"></main>
+
+  <!-- Log Modal -->
+  <div id="log-modal" class="modal hidden">
+    <div class="modal-backdrop" onclick="closeLog()"></div>
+    <div class="modal-box">
+      <div class="modal-header">
+        <span id="log-title">Log</span>
+        <button class="close-btn" onclick="closeLog()">✕</button>
+      </div>
+      <pre id="log-content">Loading...</pre>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
