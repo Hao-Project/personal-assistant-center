@@ -7,7 +7,7 @@
       "icon": "📝",
       "type": "shell",
       "command": "python3.11 run.py",
-      "cwd": "/Users/haohong/AI/projects/note-manager"
+      "cwd": "/Users/haohong/AI/projects/dictation-cleanup"
     },
     {
       "id": "review-dictation",
@@ -15,7 +15,7 @@
       "description": "Open dictation review using latest notes and corrections",
       "icon": "🔍",
       "type": "shell",
-      "command": "python generate.py -c /Users/haohong/AI/projects/note-manager/corrections/latest_corrections.json --auto-open",
+      "command": "python generate.py -c /Users/haohong/AI/projects/dictation-cleanup/corrections/latest_corrections.json --auto-open",
       "cwd": "/Users/haohong/AI/projects/dictation-reviewer"
     },
     {
