@@ -7,7 +7,7 @@
       "icon": "📝",
       "type": "shell",
       "command": "python3.11 run.py",
-      "cwd": "/Users/haohong/Desktop/Project/note-manager"
+      "cwd": "/Users/haohong/Desktop/AI/projects/note-manager"
     },
     {
       "id": "review-dictation",
@@ -15,8 +15,8 @@
       "description": "Open dictation review using latest notes and corrections",
       "icon": "🔍",
       "type": "shell",
-      "command": "python generate.py -c /Users/haohong/Desktop/Project/note-manager/corrections/latest_corrections.json --auto-open",
-      "cwd": "/Users/haohong/Desktop/Project/dictation-reviewer"
+      "command": "python generate.py -c /Users/haohong/Desktop/AI/projects/note-manager/corrections/latest_corrections.json --auto-open",
+      "cwd": "/Users/haohong/Desktop/AI/projects/dictation-reviewer"
     },
     {
       "id": "notes-to-flashcards",
@@ -25,7 +25,7 @@
       "icon": "🃏",
       "type": "shell",
       "command": "streamlit run app.py",
-      "cwd": "/Users/haohong/Desktop/Project/notes-to-flashcards"
+      "cwd": "/Users/haohong/Desktop/AI/projects/notes-to-flashcards"
     }
   ]
 }
